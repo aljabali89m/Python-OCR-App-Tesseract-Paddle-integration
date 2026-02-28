@@ -67,3 +67,17 @@ Based on rigorous testing within the application:
 ### 2. Installation
 ```bash
 pip install -r requirements.txt
+
+3. Usage
+Run the main GUI application:
+
+Bash
+python gui.py
+<p align="center">
+Developed by <strong>Mohammad Aljabali</strong> - AI Scientist & Flutter Developer
+</p>
+
+
+-----
+
+Would you like me to generate a **setup.sh** or **install.bat** script to automate the environment configuration f
