@@ -1,13 +1,11 @@
-# Python-OCR-App-Tesseract-Paddle-integration
-
 <div align="center">
-  <img height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW8yaHMydjhvMXFkcmF3bGUxZnJib3g5a2I2dDNoZHlkM282aGhydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fZoKDBwdbILBjhtXZD/giphy.gif" />
+  <img height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW8yaHMydjhvMXFkcmF3bGUxZnJib3g5a2I2dDNoZHlkM282aGhydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fZoKDBwdbILBjhtXZD/giphy.gif"  />
 </div>
 
 <h1 align="center">🚀 OCR Studio</h1>
 
 <p align="center">
-  <strong>نظام متقدم لاستخراج النصوص يدعم اللغتين العربية والإنجليزية مع معالجة صور ذكية باستخدام محركات Tesseract و PaddleOCR</strong>
+  <strong>An advanced Optical Character Recognition system supporting English & Arabic with intelligent image preprocessing</strong>
 </p>
 
 <div align="center">
@@ -18,50 +16,54 @@
 
 ---
 
-## 📝 وصف المشروع
-[cite_start]يوفر **OCR Studio** منصة متكاملة لتحويل الصور وملفات PDF إلى نصوص قابلة للتعديل[cite: 1]. تم بناء النظام ليعمل بمرونة عالية، حيث يتيح للمستخدم المقارنة بين أداء محركين عالميين، مع واجهة رسومية عصرية تدعم الوضع الليلي ومعاينة النتائج فورياً.
+## 📝 Project Overview
+**OCR Studio** is a comprehensive platform designed to convert images and PDF documents into editable text. Built with **Python 3.11**, the system allows users to toggle between two powerful OCR engines (**Tesseract** and **PaddleOCR**) while providing a modern GUI for real-time preview and result management.
 
 ---
 
-## 🏗️ كيف يعمل النظام (Core Logic)
-يمر كل مستند يتم رفعه بسلسلة من العمليات التقنية لضمان دقة الاستخراج:
+## 🏗️ Core Logic & Pipeline
+To ensure maximum accuracy, every document undergoes a specific image processing pipeline before text extraction:
 
-* **تحويل الرمادي (Grayscale):** لتبسيط البيانات الصورية.
-* **إزالة الضوضاء (Gaussian Blur):** للتخلص من الشوائب التي تعيق التعرف.
-* **العتبة التكيفية (Adaptive Thresholding):** لفصل الحروف عن الخلفية بوضوح تام.
+* **Grayscale Conversion**: Reduces data complexity for faster processing.
+* **Noise Removal (Gaussian Blur)**: Eliminates artifacts and "salt-and-pepper" noise.
+* **Adaptive Thresholding**: Dynamically separates text from the background based on local pixel intensity.
 
 
-
----
-
-## 📊 مقارنة الأداء (Performance Insights)
-بناءً على الاختبارات المكثفة للمشروع، تم التوصل للخلاصات التالية:
-
-* [cite_start]**اللغة الإنجليزية:** قدم Tesseract نتائج نظيفة ودقيقة جداً مع حد أدنى من الأخطاء[cite: 2].
-* [cite_start]**اللغة العربية:** أداء Tesseract كان مقبولاً وجيداً لمعظم الحالات [cite: 3][cite_start]، بينما واجه PaddleOCR صعوبات كبيرة أنتجت مخرجات ضعيفة[cite: 4].
-* [cite_start]**المحتوى المختلط:** تعامل Tesseract مع اللغتين معاً بمستوى متوسط [cite: 5][cite_start]، في حين فشل PaddleOCR في إنتاج نتائج متماسكة للأجزاء العربية[cite: 5].
 
 ---
 
-## 🛠️ الأدوات والتقنيات (I code with)
+## 📊 Performance Insights & Benchmarking
+Based on rigorous testing within the application:
+
+* **English Content**: Tesseract delivered exceptionally clean and accurate results with minimal errors.
+* **Arabic Content**: Tesseract performed reasonably well and is suitable for most use cases, whereas PaddleOCR struggled significantly, producing poor output.
+* **Mixed Content**: Tesseract handled dual languages at a moderate level, while PaddleOCR failed to produce coherent results for Arabic portions.
+
+---
+
+## 🛠️ Tech Stack (I code with)
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="40" alt="opencv logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="40" alt="opencv logo"  />
   <img width="12" />
-  <img src="https://raw.githubusercontent.com/otter-ai/tesseract-python/master/logo.png" height="40" alt="tesseract logo" />
+  <img src="https://raw.githubusercontent.com/otter-ai/tesseract-python/master/logo.png" height="40" alt="tesseract logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
 </div>
 
 ---
 
-## 🚀 تعليمات التشغيل
+## 🚀 Getting Started
 
-1. **إعداد البيئة:** تأكد من استخدام **Python 3.11** لضمان استقرار المكتبات.
-2. **تثبيت المكتبات:**
-   ```bash
-   pip install -r requirements.txt
+### 1. Prerequisites
+* **Python 3.11** is highly recommended for library stability.
+* **Tesseract OCR**: Must be installed on your OS. Update the path in `tesseract_ocr.py`.
+* **Poppler**: Required for the `pdf2image` library to handle PDF files.
+
+### 2. Installation
+```bash
+pip install -r requirements.txt
