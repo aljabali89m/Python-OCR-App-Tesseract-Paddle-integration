@@ -1,0 +1,8 @@
+Both OCR engines were successfully integrated and are functioning as expected within the application.
+For English text, Tesseract delivered clean and accurate results with minimal errors, proving to be 
+a reliable choice for Latin-based content. On the Arabic side, Tesseract performed reasonably 
+well — not perfect, but acceptable for most use cases. PaddleOCR, however, struggled significantly 
+with Arabic text, producing poor and largely unusable output, making it a poor fit for Arabic-language 
+documents. As for mixed content (English + Arabic), neither engine excelled — Tesseract managed to handle
+ it at a moderate level, recognizing both languages with some degree of accuracy, while PaddleOCR again 
+fell short, failing to produce coherent results for the Arabic portions of mixed documents.

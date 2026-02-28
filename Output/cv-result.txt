@@ -1,0 +1,47 @@
+MOHAMMAD ALJABALI
+
+Amman, Jordan +962780910131 _aljabali89m@gmail.com
+LinkedIn: aljabali89m Github: aljabali89m Research gate: Mohammad Aljabali
+OBJECTIVES
+
+To rigorously apply deep learning principles and advanced research methodologies to
+solve complex, high-impact problems. | aim to join a collaborative team to transform
+theoretical Al breakthroughs into practical, real-world utility, personally driving projects
+that push the boundaries of technology by engineering intuitive and impactful intelligent
+applications with Flutter.
+
+TECHNICAL SKILLS SOFT SKILLS
+« Python: TensorFlow , Keras, PyTorch, Flask ¢ Critical Thinking
+« Deep Learning : CNNs, Vision Transformers « Communication
+« Computer Vision : Image Processing, Object Detection « Problem Solving
+
+« Mobile Development : Flutter, State Management, Dart e Adaptability
+« Version Control: Git, GitHub, GitHub Actions « Teamwork
+¢« Web Technologies: HTML, CSS, JavaScript « Presentation
+
+PROJECTS & TRAINING
+
+Flutter Training - Masera Software
+
+Completed a practical Flutter training program that introduced cross-platform app development, UI
+design, and efficient backend integrations. Gained experience in state management, and version
+control, further sharpening the ability to create robust, real-world mobile applications.
+
+Graduation Project: Skin Disease Classification Using Vision Transformers
+
+Developed a deep learning model achieving 92% accuracy in classifying six skin disease
+categories. Built an end-to-end workflow from data preprocessing to deployment, leveraging
+Vision Transformers (ViT) for robust feature extraction and classification.
+
+Oct 2021 - Feb 2025
+EDUCATION
+
+BSc in Artificial Intelligence and Data Science
+Tafila Technical University, Jordan
+
+RESEARCH PUBLICATIONS
+
+A Vision Transformer-Based Framework for Multi-Class Skin Lesions.
+
+ADDITIONAL INFORMATION
+« Languages: Arabic, English
