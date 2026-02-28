@@ -52,10 +52,8 @@ Based on testing results recorded in `conclusion.txt`, here is the comparative p
 <h2 align="left">Contributor</h2>
 
 <p align="left">
-  <strong>Mohammad Aljabali</strong><br>
-  🔭 AI Scientist specializing in Deep Learning & Computer Vision<br>
-  📱 Flutter Developer focused on AI-powered mobile solutions<br>
-  📍 Based in Jordan
+  <strong>Mohammad Aljabali</strong>
+  <br> AI Engineer | LLMs & RAG Specialist <br>
 </p>
 
 <div align="center">
